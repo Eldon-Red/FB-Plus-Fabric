@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "liminality",
+	"version": "${version}",
+	"name": "Liminality",
+	"description": "A Backrooms mod with a focus on staying true to the lore.",
+	"authors": [
+		"EldonRed"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/liminality/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.eldonred.Liminality"
+		],
+		"client": [
+			"com.eldonred.LiminalityClient"
+		]
+	},
+	"mixins": [
+		"liminality.mixins.json",
+		{
+			"config": "liminality.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
