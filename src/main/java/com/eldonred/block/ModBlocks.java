@@ -1,6 +1,7 @@
 package com.eldonred.block;
 
 import com.eldonred.Liminality;
+import com.eldonred.block.custom.VoidBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -17,6 +18,12 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK).sounds(BlockSoundGroup.WOOD)));
     public static final Block DAMP_CARPET = registerBlock("damp_carpet",
             new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK).sounds(BlockSoundGroup.WOOL)));
+    public static final Block TILED_ROOF = registerBlock("tiled_roof",
+            new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK).sounds(BlockSoundGroup.BAMBOO_WOOD)));
+    public static final Block BUZZING_LIGHT = registerBlock("buzzing_light",
+            new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK).sounds(BlockSoundGroup.GLASS).luminance(27)));
+    public static final Block VOID = registerBlock("void",
+            new VoidBlock(FabricBlockSettings.create().strength(-1f)));
 
 
 
