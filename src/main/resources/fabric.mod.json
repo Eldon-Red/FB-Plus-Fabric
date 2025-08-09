@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.eldonred.Liminality"
+          "com.eldonred.FBplus"
 		],
 		"client": [
 			"com.eldonred.LiminalityClient"

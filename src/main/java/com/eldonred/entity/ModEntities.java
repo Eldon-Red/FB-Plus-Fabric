@@ -1,6 +1,6 @@
 package com.eldonred.entity;
 
-import com.eldonred.Liminality;
+import com.eldonred.FBplus;
 import com.eldonred.entity.custom.FiresaltProjectile;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.minecraft.entity.EntityDimensions;
@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModEntities {
     public static final EntityType<FiresaltProjectile> FIRESALTPROJECTILE = Registry.register(Registries.ENTITY_TYPE,
-            new Identifier(Liminality.MOD_ID, "firesalt"),
+            new Identifier(FBplus.MOD_ID, "firesalt"),
             FabricEntityTypeBuilder.<FiresaltProjectile>create(SpawnGroup.MISC, FiresaltProjectile::new).dimensions(EntityDimensions.fixed(.25f, .25f)).build());
 
 }
