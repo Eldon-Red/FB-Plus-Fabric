@@ -1,6 +1,7 @@
 package com.eldonred;
 
 import com.eldonred.block.ModBlocks;
+import com.eldonred.item.ModItemGroup;
 import com.eldonred.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,5 +16,6 @@ public class Liminality implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItemGroup.registerItemGroups();
 	}
 }

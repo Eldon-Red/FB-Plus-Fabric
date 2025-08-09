@@ -1,6 +1,7 @@
 package com.eldonred.item;
 
 import com.eldonred.Liminality;
+import com.eldonred.item.custom.FiresaltItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -13,6 +14,8 @@ public class ModItems {
 
     public static final Item ALMOND_WATER = registerItem("almond_water",
             new HoneyBottleItem(new Item.Settings().food(ModFood.ALMOND_WATER)));
+    public static final Item FIRESALT = registerItem("firesalt",
+            new FiresaltItem(new Item.Settings()));
 
 
 
