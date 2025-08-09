@@ -1,1 +1,3 @@
-An addon mod for Faithful Backrooms 1.20.1
+A Backrooms mod focused on staying true to the lore.
+
+Adds new challenging levels, staying faithful to the backrooms lore while keeping the vanilla experience.

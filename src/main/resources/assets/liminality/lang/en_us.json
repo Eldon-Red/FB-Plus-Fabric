@@ -1,7 +1,13 @@
 {
 
   "itemgroup.almond": "Liminality",
-  "item.liminality.firesalt": "Firesalt"
+  "item.liminality.almond_water": "Almond Water",
+  "block.liminality.yellow_wallpaper": "Yellow Wallpaper",
+  "block.liminality.damp_carpet": "Damp Carpet",
+  "block.liminality.tiled_roof": "Tiled Roof",
+  "block.liminality.buzzing_light": "Buzzing Light",
+  "block.liminality.void": "Void"
+
 
 
 
