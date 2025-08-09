@@ -1,7 +1,6 @@
 package com.eldonred.block;
 
-import com.eldonred.Liminality;
-import com.eldonred.block.custom.VoidBlock;
+import com.eldonred.FBplus;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -16,24 +15,16 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block YELLOW_WALLPAPER = registerBlock("yellow_wallpaper",
             new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK).sounds(BlockSoundGroup.WOOD)));
-    public static final Block DAMP_CARPET = registerBlock("damp_carpet",
-            new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK).sounds(BlockSoundGroup.WOOL)));
-    public static final Block TILED_ROOF = registerBlock("tiled_roof",
-            new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK).sounds(BlockSoundGroup.BAMBOO_WOOD)));
-    public static final Block BUZZING_LIGHT = registerBlock("buzzing_light",
-            new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK).sounds(BlockSoundGroup.GLASS).luminance(27)));
-    public static final Block VOID = registerBlock("void",
-            new VoidBlock(FabricBlockSettings.create().strength(-1f)));
 
 
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(Liminality.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(FBplus.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block) {
-        return Registry.register(Registries.ITEM, new Identifier(Liminality.MOD_ID, name),
+        return Registry.register(Registries.ITEM, new Identifier(FBplus.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
 
 }
