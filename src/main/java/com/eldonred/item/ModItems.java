@@ -12,6 +12,8 @@ public class ModItems {
 
     public static final Item FIRESALT = registerItem("firesalt",
             new FiresaltItem(new Item.Settings()));
+    public static final Item LIQUID_PAIN = registerItem("liquid_pain",
+            new HoneyBottleItem(new Item.Settings().food(ModFood.LIQUID_PAIN)));
 
 
 
