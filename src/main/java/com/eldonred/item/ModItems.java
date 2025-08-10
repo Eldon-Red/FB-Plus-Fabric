@@ -13,7 +13,11 @@ public class ModItems {
     public static final Item FIRESALT = registerItem("firesalt",
             new FiresaltItem(new Item.Settings()));
     public static final Item LIQUID_PAIN = registerItem("liquid_pain",
-            new HoneyBottleItem(new Item.Settings().food(ModFood.LIQUID_PAIN)));
+            new HoneyBottleItem(new Item.Settings().food(ModFood.LIQUID_PAIN).maxCount(1)));
+    public static final Item SMILER_STEAK = registerItem("smiler_steak",
+            new Item(new Item.Settings().food(ModFood.SMILER_STEAK).maxCount(1)));
+    public static final Item SMILER_SANDWICH = registerItem("smiler_sandwich",
+            new Item(new Item.Settings().food(ModFood.SMILER_SANDWICH).maxCount(1)));
 
 
 

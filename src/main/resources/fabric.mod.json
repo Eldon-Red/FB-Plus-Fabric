@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/liminality/icon.png",
+	"icon": "assets/fbplus/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -36,6 +36,6 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"faithfulbackrooms": "*"
 	}
 }
