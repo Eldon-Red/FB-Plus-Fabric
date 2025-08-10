@@ -11,4 +11,9 @@ public class ModFood {
             .meat().build();
     public static final FoodComponent SMILER_SANDWICH = new FoodComponent.Builder().hunger(12).saturationModifier(0.6f)
             .meat().build();
+    public static final FoodComponent MOTH_JELLY = new FoodComponent.Builder().hunger(20).saturationModifier(10f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 5000, 1), 1f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 5000, 1), 1f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 5000, 1), 1f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 5000, 1), 1f).build();
 }

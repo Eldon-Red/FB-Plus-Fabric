@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "fbplus:item/firesalt"
+    "layer0": "fbplus:item/moth_jelly"
   }
 }
