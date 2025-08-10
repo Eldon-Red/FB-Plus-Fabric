@@ -1,6 +1,7 @@
 package com.eldonred;
 
 import com.eldonred.block.ModBlocks;
+import com.eldonred.entity.effect.ModEffects;
 import com.eldonred.item.ModItemGroup;
 import com.eldonred.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -17,5 +18,6 @@ public class FBplus implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroup.registerItemGroups();
+		ModEffects.registerEffects();
 	}
 }

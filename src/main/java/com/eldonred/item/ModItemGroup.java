@@ -18,6 +18,11 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.FIRESALT)).entries((displayContext, entries) -> {
                        entries.add(ModItems.FIRESALT);
                        entries.add(ModItems.LIQUID_PAIN);
+                        entries.add(ModItems.FIRESALT_COCKTAIL);
+                        entries.add(ModItems.MEMORY_SCRAMBLER);
+                        entries.add(ModItems.SMILER_STEAK_FRITES);
+                        entries.add(ModItems.SMILER_STEAK);
+                        entries.add(ModItems.SMILER_SANDWICH);
 
 
                     }).build());
