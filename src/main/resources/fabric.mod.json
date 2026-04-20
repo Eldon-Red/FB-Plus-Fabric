@@ -19,7 +19,7 @@
 			"com.eldonred.FBplus"
 		],
 		"client": [
-			"com.eldonred.LiminalityClient"
+          "com.eldonred.FBPlusClient"
 		]
 	},
 	"mixins": [

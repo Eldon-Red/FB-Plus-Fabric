@@ -6,8 +6,6 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
 
 public class ModFood {
-    public static final FoodComponent LIQUID_PAIN = new FoodComponent.Builder().hunger(-100).saturationModifier(0f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.WITHER, 100000000, 3), 1f).build();
     public static final FoodComponent SMILER_STEAK = new FoodComponent.Builder().hunger(8).saturationModifier(0.5f)
             .meat().build();
     public static final FoodComponent SMILER_STEAK_FRITES = new FoodComponent.Builder().hunger(20).saturationModifier(1f)
